@@ -1,5 +1,5 @@
 {% set name = "daffy" %}
-{% set version = "2.5.0" %}
+{% set version = "2.5.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/daffy-{{ version }}.tar.gz
-  sha256: f1efff571f74821e04ed44d72d8f4fd2afc84f49deafe19a7c1806327beddcac
+  sha256: 856033385dd7a0ed4546417a9e0694a97b43c780bb0b92e4931d7492cb48fcd7
 
 build:
   noarch: python
